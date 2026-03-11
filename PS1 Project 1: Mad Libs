@@ -1,0 +1,7 @@
+x=input("Enter an adjective:")
+y=input("Enter another adjective:")
+z=input("Enter a noun:")
+d=input("Enter a verb:")
+f=input("Enter another verb, in past tense")
+print("The cafeteria at our school is very " + x + "." + " For example, they serve " + y + " pizza." + " They also serve " + z + ". " 
+" One time, I saw somebody " + d + " a cross in the cafeteria. " + " Everybody " + f + ".")
