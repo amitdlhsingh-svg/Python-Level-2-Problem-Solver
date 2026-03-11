@@ -1,0 +1,4 @@
+name=input("What is your namne? ")
+for i in range(len(name)):
+  print(name[i])
+
