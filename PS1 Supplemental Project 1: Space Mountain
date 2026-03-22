@@ -1,0 +1,16 @@
+f=900
+x=int(input("Enter person 1's weight: "))
+f=f-x
+print("Remaining weight capacity: " + str(f))
+
+y=int(input("Enter person 2's weight: "))
+f=f-y
+print("Remaining weight capacity: " + str(f))
+
+z=int(input("Enter person 3's weight: "))
+f=f-z
+print("Remaining weight capacity: " + str(f))
+
+p=int(input("Enter person 4's weight: "))
+f=f-p
+print("Remaining weight capacity: " + str(f))
