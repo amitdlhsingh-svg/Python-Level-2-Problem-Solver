@@ -1,4 +1,35 @@
-name=input("What is your namne? ")
+name=input("What is your name? ")
+
+print("I'm prining out your name!")
+
 for i in range(len(name)):
   print(name[i])
 
+print("I'm prining out every other letter in your name!")
+
+for i in range(0,len(name),2):
+  print(name[i])
+
+print("I'm prining out your name backwards!")
+
+for i in range(len(name)-1,-1,-1):
+  print(name[i])
+print("I'm prining out your name!")
+
+x=0
+while x<len(name):
+  print(name[x])
+  x+=1
+
+print("I'm prining out every other letter in your name!")
+
+x=0
+while x<len(name):
+  print(name[x])
+  x+=2
+print("I'm prining out your name backwards!")
+
+x=len(name)-1
+while x>=0:
+  print(name[x])
+  x-=1
